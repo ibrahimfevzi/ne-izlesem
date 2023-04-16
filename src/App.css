@@ -1,3 +1,48 @@
-.App {
-  text-align: center;
+.mainBox,
+.showList,
+.showSummary,
+.favList {
+  border: 1px solid limegreen;
+}
+
+.showList,
+.favList {
+  flex: 1;
+  background-color: white;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.showSummary {
+  flex: 2;
+  background-color: white;
+}
+
+.mainBox {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  gap: 3rem;
+  background-color: crimson;
+}
+
+.showSummary {
+  align-self: center;
+  padding: 2rem;
+}
+
+/*Dizi Öğesi */
+.showItem {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.showItem-poster {
+  max-width: 120px;
+}
+
+.showItem-info {
 }
