@@ -1,4 +1,5 @@
 import "./App.css";
+import ShowItem from "./components/ShowItem";
 
 /*
 -boş react uygulaması oluşturacağız done
@@ -24,97 +25,16 @@ function App() {
     <div className="mainBox">
       <div className="showList">
         <h2>Dizi Listesi</h2>
-        <div className="showItem">
-          <div className="showItem-poster">
-            <img
-              src="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
-              alt=""
-            />
-          </div>
-          <div className="showItem-info">
-            <h3>Game of Throne</h3>
-            <p>2011-04-17</p>
-            <button>Preview</button>
-          </div>
-        </div>
-        <div className="showItem">
-          <div className="showItem-poster">
-            <img
-              src="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
-              alt=""
-            />
-          </div>
-          <div className="showItem-info">
-            <h3>Game of Throne</h3>
-            <p>2011-04-17</p>
-            <button>Preview</button>
-          </div>
-        </div>
-        <div className="showItem">
-          <div className="showItem-poster">
-            <img
-              src="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
-              alt=""
-            />
-          </div>
-          <div className="showItem-info">
-            <h3>Game of Throne</h3>
-            <p>2011-04-17</p>
-            <button>Preview</button>
-          </div>
-        </div>
-        <div className="showItem">
-          <div className="showItem-poster">
-            <img
-              src="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
-              alt=""
-            />
-          </div>
-          <div className="showItem-info">
-            <h3>Game of Throne</h3>
-            <p>2011-04-17</p>
-            <button>Preview</button>
-          </div>
-        </div>
-        <div className="showItem">
-          <div className="showItem-poster">
-            <img
-              src="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
-              alt=""
-            />
-          </div>
-          <div className="showItem-info">
-            <h3>Game of Throne</h3>
-            <p>2011-04-17</p>
-            <button>Preview</button>
-          </div>
-        </div>
-        <div className="showItem">
-          <div className="showItem-poster">
-            <img
-              src="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
-              alt=""
-            />
-          </div>
-          <div className="showItem-info">
-            <h3>Game of Throne</h3>
-            <p>2011-04-17</p>
-            <button>Preview</button>
-          </div>
-        </div>
-        <div className="showItem">
-          <div className="showItem-poster">
-            <img
-              src="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
-              alt=""
-            />
-          </div>
-          <div className="showItem-info">
-            <h3>Game of Throne</h3>
-            <p>2011-04-17</p>
-            <button>Preview</button>
-          </div>
-        </div>
+        <ShowItem
+          poster="https://static.episodate.com/images/tv-show/thumbnail/23455.jpg"
+          title="Game of Throne"
+          date="2011-04-17"
+        />
+        <ShowItem
+          poster="https://static.episodate.com/images/tv-show/thumbnail/29560.jpg"
+          title="Arrow"
+          date="2012-10-10"
+        />
       </div>
       <div className="showSummary">Dizi Özeti </div>
       <div className="favList">
